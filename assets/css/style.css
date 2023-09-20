@@ -1,0 +1,195 @@
+/* 
+power by Aris krisnanto
+rilise date : 6 september 2023
+*/
+
+html {
+    scroll-behavior: smooth;
+}
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background-color: rgb(209 213 219);
+    font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+button {
+    cursor: pointer;
+}
+a.btn-link {
+    color: rgb(17 24 39);
+    text-decoration: none;
+}
+.title > h2 {
+    padding: 14px 0;
+    margin: 0;
+}
+nav {
+    /* background: green; */
+    display: inline-flex;
+    width: 100%;
+    position: fixed;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    background-color: rgb(243 244 246);
+}
+nav > .container {
+    display: inline-flex;
+}
+.grub-menu {
+    /* background: blue; */
+    width: 100%;
+    text-align: right;
+}
+.grub-menu > ul {
+    list-style-type: none;
+    padding: 0;
+    display: inline-block;
+}
+.grub-menu > ul > li {
+    padding: 6px ;
+    margin-top: 0px;
+    display: inline-block;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0px;
+}
+
+
+/* 
+content
+*/
+.content {
+    margin-top: 165px;
+    background-color: rgb(243 244 246);
+    width: 100%;
+    border-radius: 7px;
+    /* padding: 5px; */
+}
+.profil {
+    width: 14%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 100px;
+    margin-top: -10%;
+    display: inline-block;
+    border: 6px solid rgb(243 244 246);
+}
+.profil > img {
+    width: 100%;
+    height: 100%;
+}
+div.name {
+    display: inline-block;
+    overflow: hidden;
+    padding: 15px 6px;
+    margin-top: 10px;
+}
+div.name > div {
+    overflow: hidden;
+    display: inline-block;
+}
+div.name > div > h5, h2 {
+    /* color: rgb(75 85 99); */
+    margin: 0;
+    padding: 0;
+}
+.user, .btn-list {
+    padding: 10px;
+}
+div.name > div > h5 {
+    color: rgb(75 85 99);
+}
+.btn-knt, .btn-res {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 17px;
+    font-weight: 500;
+    color: whitesmoke;
+    opacity: 1;
+}
+.btn-knt {
+    background: rgb(11, 202, 122);
+}
+.btn-res {
+    background: rgb(17 24 39);
+}
+.btn-knt:hover, .btn-res:hover {
+    opacity: 0.6;
+}
+.form-input-content {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+
+}
+.form-input-content > li {
+    padding: 8px 0px;
+}
+.form-input-content > li > label {
+    font-weight: bold;
+    width: 100%;
+}
+.form-input-content > li > input {
+    width: 70%;
+    padding: 10px;
+}
+.center-bg {
+    text-align: center;
+    align-items: center;
+    align-self: center;
+    align-content: center;
+}
+.update-form {
+    overflow: hidden;
+    height: 0px;
+    /* transition: 0.5s; */
+}
+.update-form:target {
+    height: 100%;
+}
+.content-ct-0 {
+    /* background-color: rgb(243 244 246); */
+    width: 100%;
+    border-radius: 7px;
+}
+.content-ct-0 > p {
+    color: rgb(86, 87, 87);
+}
+.ls-btn-sosmed {
+    list-style-type: none;
+    list-style: none;
+    padding: 0;
+}
+.ls-btn-sosmed > li {
+    display: inline-block;
+    padding: 0px 10px;
+}
+.ls-btn-sosmed > li > a > img {
+    color: white;
+}
+.cards {
+    padding: 10px;
+    display: inline-block;
+    text-align: center;
+    background: white;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.3);
+}
+.cards > .content-img {
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+}
+.cards > .content-img > img {
+    width: 100%;
+    height: 100%;
+}
+.content-desk-card > h3 {
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+}
